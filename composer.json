@@ -1,0 +1,35 @@
+{
+    "name": "doctrine/doctrine-tutorial",
+    "description": "Doctrine Tutorial for beginner to advanced",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^3.1",
+        "doctrine/dbal": "^4.0",
+        "symfony/cache": "^7.0",
+        "symfony/orm-pack": "^2.4"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "symfony/maker-bundle": "^1.56"
+    },
+    "license": "MIT",
+    "autoload": {
+      "psr-0": {
+        "": "src/"
+      },
+      "psr-4": {
+        "Doctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CodeWithSushil",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
