@@ -6,7 +6,7 @@ use Doctrine\ORM\ORMSetup;
 require_once "vendor/autoload.php";
 
 $config = ORMSetup::createAttributeMetadataConfiguration(
-  paths: array(__DIR__."/src"),
+  paths: array(__DIR__."/config/doctrine.yaml"),
   isDevMode: true,
 );
 
