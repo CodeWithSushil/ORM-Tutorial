@@ -6,13 +6,13 @@ use Doctrine\ORM\ORMSetup;
 require_once "vendor/autoload.php";
 
 $config = ORMSetup::createAttributeMetadataConfiguration(
-  paths: array(__DIR__."/config/doctrine.yaml"),
+  paths: array(__DIR__."/src"),
   isDevMode: true,
 );
 
 $connection = DriverManager::getConnection([
   'driver' => 'pdo_sqlite',
-  'path' => __DIR__.'/database/database.sqlite',
+  'path' => __DIR__.'/database.sqlite',
 ]);
 
 $entityManager = new EntityManager($connection, $config);
