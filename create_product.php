@@ -10,4 +10,6 @@ $product->setName($newProductName);
 $entityManager->persist($product);
 $entityManager->flush();
 
-echo "Created Product with ID " . $product->getId() . "\n";
+echo "Created Product with ID ". $product->getId() . "\n";
+
+echo "Product name is ". $product->getName() ."\n";

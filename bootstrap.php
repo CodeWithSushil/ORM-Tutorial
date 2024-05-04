@@ -10,9 +10,16 @@ $config = ORMSetup::createAttributeMetadataConfiguration(
   isDevMode: true,
 );
 
+// or if you prefer XML 
+// $config = ORMSetup::createXMLMetadataConfiguration(
+//  paths: array(__DIR__."/config/xml"),
+//  isDevMode: true,
+// );
+
+
 $connection = DriverManager::getConnection([
   'driver' => 'pdo_sqlite',
-  'path' => __DIR__.'/database.sqlite',
+  'path' => __DIR__.'/database/database.sqlite',
 ]);
 
 $entityManager = new EntityManager($connection, $config);

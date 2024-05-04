@@ -1,0 +1,14 @@
+<!-- src/Resources/config/doctrine/User.orm.xml -->
+<?xml version="1.0"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                                      https://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="User" table="users">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <field name="username" type="string" length="255"/>
+        <!-- Add more fields as needed -->
+    </entity>
+</doctrine-mapping>
