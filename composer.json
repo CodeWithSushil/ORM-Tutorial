@@ -3,12 +3,12 @@
     "description": "Doctrine Tutorial for beginner to advanced",
     "type": "project",
     "require": {
-        "doctrine/orm": "^3.1",
+        "doctrine/orm": "^3.2",
         "doctrine/dbal": "^4.0",
         "symfony/cache": "^7.0",
         "symfony/orm-pack": "^2.4",
         "vlucas/phpdotenv": "^5.6",
-        "doctrine/migrations": "^3.7",
+        "doctrine/migrations": "^3.8",
         "myclabs/deep-copy": "^1.12"
     },
     "require-dev": {
