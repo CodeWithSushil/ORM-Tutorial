@@ -12,7 +12,7 @@
         "myclabs/deep-copy": "^1.12"
     },
     "require-dev": {
-        "pestphp/pest": "^2.34",
+        "pestphp/pest": "^2.35",
         "symfony/maker-bundle": "^1.56"
     },
     "license": "MIT",
