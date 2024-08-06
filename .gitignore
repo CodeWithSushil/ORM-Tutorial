@@ -1,4 +1,2 @@
-/vendor
-/cli-config.php
-/database/database.sqlite
-/database.sqlite
+.env
+/vendor/
