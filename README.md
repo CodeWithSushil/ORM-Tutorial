@@ -1,7 +1,7 @@
 ## Doctrine ORM Tutorial
 * Doctrine ORM tutorial zero to hero.
 
-### Prerequirements
+### Pre-Requirements
 * PHP
 * OOPs
 * MVC
